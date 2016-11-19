@@ -1,0 +1,17 @@
+html, body {
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+body h1 {
+	text-align: center;
+}
