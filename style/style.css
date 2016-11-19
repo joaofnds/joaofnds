@@ -1,17 +1,41 @@
-html, body {
-	margin: 0px;
-	padding: 0px;
-	height: 100%;
-	width: 100%;
-	overflow: hidden;
+/* ---- reset ---- */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-	display: flex;
-	align-items: center;
-	justify-content: center;
+  overflow: hidden;
 }
 
-body h1 {
-	text-align: center;
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+/* ---- particles.js container ---- */
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.title {
+  position: absolute;
+  width: 300px;
+  height: 80px;
+  top: calc(50% - 40px);
+  left: calc(30% - 150px);
+  z-index: 100;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  pointer-events: none;
+  user-select: none;
 }
